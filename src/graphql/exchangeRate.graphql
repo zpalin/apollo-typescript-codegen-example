@@ -1,0 +1,6 @@
+fragment ExchangeRate on ExchangeRate {
+  __typename
+  currency
+  name
+  rate
+}

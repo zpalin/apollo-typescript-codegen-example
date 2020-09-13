@@ -1,0 +1,5 @@
+query rates($currency: Currency!) {
+  rates(currency: $currency) {
+    ...ExchangeRate
+  }
+}
